@@ -1,0 +1,25 @@
+.popover-fallback {
+  position: fixed;
+  width: fit-content;
+  height: fit-content;
+  color: canvastext;
+  background-color: canvas;
+  inset: 0px;
+  margin: auto;
+  border-width: initial;
+  border-style: solid;
+  border-color: initial;
+  border-image: initial;
+  padding: 0.25em;
+  overflow: auto;
+  z-index: 1001;
+}
+.backdrop {
+  top:0;
+  left:0;
+  position:fixed;
+  height:100dvh;
+  width:100vw;
+  background:rgba(0,0,0,0.6);
+  z-index: 1000;
+}
